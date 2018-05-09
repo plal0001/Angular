@@ -1,0 +1,6 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+<link rel="stylesheet" href="/ButanClub/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/ButanClub/css/bootstrap.css">
+<link rel="stylesheet" href="/ButanClub/css/main.css">

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ButanClub" antiJARLocking="true">
+
+    <Resource auth="Container" driverClassName="org.apache.derby.jdbc.ClientDriver"
+              maxTotal="10"
+              name="jdbc/ButanClub"
+              password="butan"
+              type="javax.sql.DataSource"
+              url="jdbc:derby://localhost:1527/ButanClub"
+              username="butan"/>
+              <!--<Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/>
+-->
+
+    <Realm className="org.apache.catalina.realm.DataSourceRealm"
+           dataSourceName="jdbc/ButanClub"
+           localDataSource="true"
+           userTable="Usuarios"
+           userNameCol="usuario"
+           UserCredCol="pass"
+           userRoleTable="Usuarios"
+           roleNameCol="tipoUsuario"
+    />
+
+    
+
+
+</Context>

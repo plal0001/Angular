@@ -1,0 +1,12 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<h2>Datos de Usuario</h2>
+
+Nombre de usuario: <%= request.getParameter("usuario")%><br>
+Nombre: <%= request.getParameter("nombre")%><br>
+Apellidos: <%= request.getParameter("apellidos")%><br>
+E-mail:<%= request.getParameter("email")%>
+Teléfono:<%= request.getParameter("tlfn")%> 
+<br>
+Fecha:<%= request.getParameter("fecha")%>

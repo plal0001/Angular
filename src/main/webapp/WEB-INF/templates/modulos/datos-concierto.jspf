@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<h2>Datos de Concierto </h2>
+
+<p><h3>${conciertoCompra.nombre} </h3>
+<br>
+${conciertoCompra.artista}</p>
+Precio: ${conciertoCompra.precio}€
+<br>
+Día: ${conciertoCompra.fecha}  <br>  Hora:${conciertoCompra.hora}
+<br>

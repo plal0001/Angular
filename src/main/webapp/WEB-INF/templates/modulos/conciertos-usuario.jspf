@@ -1,0 +1,24 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<div class="row justify-content-center">
+    <c:forEach var="co" items="${listadoConciertosUsuario}">
+        <div class=" concierto col-md-4" >
+            <div class=" centrar-contenido info-concierto">
+                <div>
+
+                    <h3><p>${co.nombre}</p></h3>
+                    <p>${co.artista}</p>
+                    <br>
+                    Precio: ${co.precio}€
+                    <br>
+                    Día: ${co.fecha}  <br>  Hora:${co.hora}
+                    <br>
+
+
+                </div>
+            </div>
+        </div>
+    </c:forEach>
+
+</div>

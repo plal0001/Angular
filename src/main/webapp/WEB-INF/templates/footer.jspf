@@ -1,0 +1,33 @@
+<%-- 
+    Document   : footer
+    Created on : 13-feb-2018, 18:18:59
+    Author     : josem
+--%>
+<footer class="footer row justify-content-center">
+
+    <div class="col-md-3">
+        <h3 class="info-col">Dónde <span>estamos</span></h3>
+        <iframe
+            frameborder="0" style="border:0; height: 400px; width:auto;"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCfRlCcD8oTGtrYwy8gzR5H9CRJrid3xtQ
+              &q=EPS Jaen" allowfullscreen>
+        </iframe>
+    </div>
+       <div class="col-md-3 redes-sociales">
+           <h3 class="info-col">Redes<span> sociales</span></h3>
+           <a href="https://www.facebook.com"><i class="fab fa-facebook-square "></i> Facebook</a><br>
+           <a href="https://www.instagram.com"><i class="fab fa-instagram "></i> Instagram</a><br>
+           <a href="https://www.YouTube.com"><i class="fab fa-youtube-square "></i> YouTube</a><br>
+           <a href="https://www.Twitter.com"><i class="fab fa-twitter-square "></i> Twitter</a><br>
+           
+           
+    </div> 
+    <div class="col-md-3 mas-info">
+        <h3 class="info-col"> Más <span>info</span></h3>
+        <a href="#">Quiénes somos</a><br>
+        <a href="/ButanClub/WEB-INF/templates/footer/Terminos.jsp">Condiciones de venta</a><br>
+        <a href="/ButanClub/WEB-INF/templates/footer/Cookies.jsp">Política de Cookies</a><br>
+        <a href="/ButanClub/WEB-INF/templates/footer/Contacto.jsp">Contacto</a><br>
+    </div>
+</footer>
+</html>

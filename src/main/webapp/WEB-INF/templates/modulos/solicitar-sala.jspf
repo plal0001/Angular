@@ -1,0 +1,25 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="row centrar-contenido">
+    <h2>Solicitar sala</h2>
+</div>
+<div class="row justify-content-center">
+    <form action="/ButanClub/main/conciertos/solicitarSala" name="solicitar-sala" method="GET">
+        <label>Nombre concierto: <input type="text" name="nombre" class="form-control"></label>
+        <label>Nombre artista: <input type="text" name="artista" class="form-control"></label>
+        <label>Hora: <input type="time" value="now" name="hora" class="form-control"> </label>
+        <label>Día: <input type="date" name="fecha" class="form-control"></label>
+        <label>Precio(€): <input type="number" name="precio" class="form-control"> </label>
+        <label>Tipo de música: <select name="genero" class="form-control">
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="heavy-metal">Heavy metal</option>
+                <option value="indie">Indie</option>
+                <option value="rap">Rap</option>
+                <option value="Otro">Otro</option>
+            </select>
+        </label>
+
+        <input class="btn btn-primary" type="submit" name="solicitar" value="Solicitar">
+    </form>
+</div>
